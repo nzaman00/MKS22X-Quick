@@ -31,13 +31,9 @@ public class Quick{
         output += ary[i] + " ";}
       return output;
     }
+    public static void main(String[] args) {
+      int[] ary = {4,10,3,7,6,8,9,1,12,15,16,24};
+      System.out.print(partition(ary, 0, 11));
 
-  
-  /*return the value that is the kth smallest value of the array.
- */
- public static int quickselect(int []data, int k){
-  
- }
-
-
-}
+    }
+  }
